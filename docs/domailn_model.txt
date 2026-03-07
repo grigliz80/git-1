@@ -2,3 +2,9 @@ Dish
 Ingredient
 MenuDay
 MenuWeek
+
+Future model (planned):
+DishIngredient
+
+Reason:
+Dish price will be calculated from ingredient amounts and price per 100g.
