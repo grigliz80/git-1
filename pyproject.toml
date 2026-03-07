@@ -1,0 +1,9 @@
+[project]
+name = "luna_weekly_cooking"
+version = "1.0.1"
+description  = "CLI app for weekly cooking planning"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
