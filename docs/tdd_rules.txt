@@ -1,0 +1,6 @@
+1 write test
+2 run pytest
+3 see RED
+4 write minimal code
+5 GREEN
+6 refactor

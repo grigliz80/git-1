@@ -1,0 +1,17 @@
+Project: luna_weekly_cooking
+
+Structure:
+docs/
+architecture.txt
+domain_model.txt
+git_worlflow.txt
+tdd_rules.txt
+
+src/luna_weekly_cooking
+models.py
+storage.py
+
+tests/
+
+Goal:
+weekly meal planning
