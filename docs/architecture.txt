@@ -11,6 +11,8 @@ src/luna_weekly_cooking
     models/
         __init__.py
         dish.py
+        ingredient.py
+
 storage.py
 
 tests/
