@@ -8,7 +8,9 @@ git_worlflow.txt
 tdd_rules.txt
 
 src/luna_weekly_cooking
-models.py
+    models/
+        __init__.py
+        dish.py
 storage.py
 
 tests/
