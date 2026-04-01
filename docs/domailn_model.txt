@@ -1,5 +1,8 @@
 Dish
 Ingredient
+- name
+- price_per_unit
+- unit
 MenuDay
 MenuWeek
 
