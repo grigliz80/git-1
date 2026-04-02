@@ -1,0 +1,52 @@
+=== ARCHITECTURE ===
+Project: luna_weekly_cooking
+
+Structure:
+docs/
+architecture.txt
+domain_model.txt
+git_worlflow.txt
+tdd_rules.txt
+
+src/luna_weekly_cooking
+    models/
+        __init__.py
+        dish.py
+        ingredient.py
+
+storage.py
+
+tests/
+
+Goal:
+weekly meal planning
+
+=== DOMAIN MODEL ===
+Dish
+Ingredient
+- name
+- price_per_unit
+- unit
+MenuDay
+MenuWeek
+
+Future model (planned):
+DishIngredient
+
+Reason:
+Dish price will be calculated from ingredient amounts and price per unit.
+
+=== TDD RULES ===
+1 write test
+2 run pytest
+3 see RED
+4 write minimal code
+5 GREEN
+6 refactor
+
+=== GIT WORKFLOW ===
+branch model:
+main
+feature/*
+archive/*
+
