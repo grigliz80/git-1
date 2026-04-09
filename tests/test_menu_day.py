@@ -31,3 +31,17 @@ def test_remove_non_existing_dish():
 
     with pytest.raises(ValueError):
         day.remove_dish(dish)
+
+def test_get_dishes_by_category():
+    day = MenuDay("Monday")
+
+    dish1 = Dish("Borsch", "first")
+    dish2 = Dish("Steak", "second")
+
+    day.add_dish(dish1)
+    day.add_dish(dish2)
+
+    first_dishes = day.get_dishes_by_category("first")
+
+    assert len(first_dishes) == 1
+    assert first_dishes[0] == dish1
