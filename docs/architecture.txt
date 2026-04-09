@@ -12,7 +12,7 @@ src/luna_weekly_cooking
         __init__.py
         dish.py
         ingredient.py
-
+        menu_day.py
 storage.py
 
 tests/
