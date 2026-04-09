@@ -1,4 +1,7 @@
 Dish
+- name
+- category (first | second)
+- validation: raises ValueError if invalid category
 Ingredient
 - name
 - price_per_unit
