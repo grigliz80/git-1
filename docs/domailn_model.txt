@@ -2,6 +2,9 @@ Dish
 - name
 - category (first | second)
 - validation: raises ValueError if invalid category
+DishIngredient
+- ingredient
+- amount
 Ingredient
 - name
 - price_per_unit
