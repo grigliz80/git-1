@@ -5,6 +5,7 @@ Dish
 DishIngredient
 - ingredient
 - amount
+- cost (currently supports per_100g)
 Ingredient
 - name
 - price_per_unit
