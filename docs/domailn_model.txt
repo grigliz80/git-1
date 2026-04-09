@@ -4,6 +4,11 @@ Ingredient
 - price_per_unit
 - unit
 MenuDay
+- day_name
+- dishes
+- add_dish()
+- remove_dish()
+- get_dishes_by_category()
 MenuWeek
 
 Future model (planned):
