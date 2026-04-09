@@ -1,3 +1,4 @@
+import pytest
 from luna_weekly_cooking.models import MenuDay, Dish
 
 def test_menu_day_creation():
@@ -23,3 +24,10 @@ def test_remove_dish():
     day.remove_dish(dish)
 
     assert day.dishes == []
+
+def test_remove_non_existing_dish():
+    day = MenuDay("Monday")
+    dish = Dish("Borsch", "first")
+
+    with pytest.raises(ValueError):
+        day.remove_dish(dish)
