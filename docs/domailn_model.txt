@@ -5,7 +5,8 @@ Dish
 Ingredient
 - name
 - price_per_unit
-- unit
+- unit (per_piece | per_100g | per_100ml)
+- validation: raises ValueError if invalid unit
 MenuDay
 - day_name
 - dishes
