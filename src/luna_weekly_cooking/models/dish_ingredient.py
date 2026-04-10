@@ -7,3 +7,7 @@ class DishIngredient:
     def cost(self):
         if self.ingredient.unit == "per_100g":
             return (self.amount / 100) * self.ingredient.price_per_unit
+        if self.ingredient.unit == "per_piece":
+            return self.amount * self.ingredient.price_per_unit
+        if self.ingredient.unit == "per_100ml":
+            return (self.amount / 100) * self.ingredient.price_per_unit
