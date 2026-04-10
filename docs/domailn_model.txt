@@ -1,11 +1,17 @@
 Dish
-- name
-- category (first | second)
+- name: str
+- category (first | second): str
+- ingredients: list[DishIngredient]
 - validation: raises ValueError if invalid category
+
+Relations:
+- Dish has many DishIngredients
+- DishIngredient belongs to Dish
+
 DishIngredient
-- ingredient
-- amount
-- cost (supports per_piece | per_100g | per_100ml)
+- ingredient: Ingredient
+- amount: float | int
+- cost: calculated property based on ingredient.unit
 Ingredient
 - name
 - price_per_unit

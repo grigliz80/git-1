@@ -6,4 +6,7 @@ class Dish:
         
         self.name = name
         self.category = category
+        self.ingredients = []
 
+    def add_ingredient(self, dish_ingredient):
+        self.ingredients.append(dish_ingredient)
